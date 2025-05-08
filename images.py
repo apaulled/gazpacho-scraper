@@ -26,7 +26,6 @@ def get_first_google_image_link(query, headless=False, timeout=10):
         driver.quit()
 
 
-# Usage example:
 if __name__ == "__main__":
     link = get_first_google_image_link("puppies")
     print("First image URL:", link)
